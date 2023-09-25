@@ -1,4 +1,4 @@
-function Message() {
+function Message(props) {
     return (
         <span className="Message">{props.tweet.message}</span>
       )}

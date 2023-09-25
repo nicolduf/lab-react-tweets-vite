@@ -1,6 +1,6 @@
-function ProfileImage() {
+function ProfileImage(props) {
     return (
-        <span className="image">{props.tweet.image}</span>
+        <img src={props.tweet.user.image} className = "profile"/>
       )}
 
 export default ProfileImage;
